@@ -3,7 +3,7 @@
 //     return res.json()
 // })
 // .then((data)=> {
-//     //console.table((data.results));
+//     console.table((data.results));
 //     let results = data.results;
 //     let record = results.filter((item)=> {
 //         return item.id == 1
@@ -49,6 +49,7 @@
 //     let data = await res.json();
 //     console.table(data.results);
 // })();
+//==============================================
 let wrapper = document.querySelector('.wrapper');
 async function fetchData() {
     let res = await fetch("https://randomuser.me/api?results=100");
